@@ -16,7 +16,7 @@ This plugin integrates TalentHR jobs with WordPress. Promote your TalenHR open j
 
 ## Installation
 
-1. Download the plugin zip file from the [releases page].
+1. Download the plugin zip file from the [releases page](https://github.com/TalentHR/TalentHR-wordpress-jobs/releases).
 2. Upload the plugin zip file via the WordPress admin dashboard or extract the contents to your `wp-content/plugins/` directory.
 3. Activate the plugin through the 'Plugins' menu in WordPress.
 
@@ -46,8 +46,8 @@ The plugin also provides a widget named "TalentHR Job Positions" that you can ad
 
 ## Support
 
-If you encounter any issues or have questions about the plugin, please [open an issue] on GitHub.
+If you encounter any issues or have questions about the plugin, please visit our [Help Center](https://help.talenthr.io/hc/en-us).
 
 ## License
 
-This plugin is licensed under the GPL-2.0 License. See [LICENSE](link-to-license-file) for more information.
+This plugin is licensed under the GPL-2.0 License. See [LICENSE](https://github.com/TalentHR/TalentHR-wordpress-jobs/blob/v1.1/LICENSE) for more information.
