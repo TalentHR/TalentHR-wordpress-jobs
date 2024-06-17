@@ -1,4 +1,4 @@
-=== TalentHR Jobs ===
+# TalentHR Jobs
 Contributors: [List of WordPress.org User IDs]
 Tags: talenthr, jobs
 Requires at least: 4.7
