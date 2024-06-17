@@ -3,7 +3,7 @@ Contributors: [List of WordPress.org User IDs]
 Tags: talenthr, jobs
 Requires at least: 4.7
 Tested up to: 6.5.3
-Stable tag: 1.1
+Stable tag: 1.0
 Requires PHP: 8.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -12,11 +12,11 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 ## Description
 
-This plugin integrates TalentHR jobs with WordPress. Promote your TalenHR open job positions through your WordPress website.
+This plugin integrates TalentHR with WordPress. Promote your TalenHR open job positions through your WordPress site.
 
 ## Installation
 
-1. Download the plugin zip file from the [releases page].
+1. Download the plugin zip file from the [releases page](link-to-releases-page).
 2. Upload the plugin zip file via the WordPress admin dashboard or extract the contents to your `wp-content/plugins/` directory.
 3. Activate the plugin through the 'Plugins' menu in WordPress.
 
@@ -46,8 +46,18 @@ The plugin also provides a widget named "TalentHR Job Positions" that you can ad
 
 ## Support
 
-If you encounter any issues or have questions about the plugin, please [open an issue] on GitHub.
+If you encounter any issues or have questions about the plugin, please [open an issue](link-to-issues-page) on GitHub.
 
 ## License
 
 This plugin is licensed under the GPL-2.0 License. See [LICENSE](link-to-license-file) for more information.
+
+== Frequently Asked Questions ==
+N/A
+
+== Changelog ==
+Initial version
+
+== Upgrade Notice ==
+N/A
+

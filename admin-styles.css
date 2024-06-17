@@ -1,0 +1,422 @@
+.response-body {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    overflow: auto;
+}
+
+.form-table .status-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: grey;
+    margin-left: 10px;
+}
+
+#api-status {
+    margin-left: 5px;
+}
+
+.blog-link{
+    margin-top: 30px;
+}
+
+#copied-message,
+#copied-simple-api-message {
+    display: none;
+    position: absolute;
+    top: -35px;
+    right: -15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#shortcode-button {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#shortcode-button .fa-copy {
+    font-size: 14px;
+    color: #F77A21;
+}
+
+#simple-api-shortcode,
+#extended-api-shortcode {
+    width: 300px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+/* CSS styles for the talenthr-job-box-short */
+.talenthr-job-box-simple {
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    /* Use Flexbox for layout */
+    justify-content: space-between;
+    /* Align items to left and right */
+    align-items: flex-start;
+    /* Align items to the top */
+}
+
+/* CSS styles for the job-details-short */
+.job-details-simple {
+    flex: 1;
+    /* Take up remaining space */
+}
+
+/* CSS styles for the talenthr-job-title-short */
+.talenthr-job-title-simple {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* CSS styles for the talenthr-location-short and talenthr-department-short */
+.talenthr-location-simple,
+.talenthr-department-simple {
+    margin-bottom: 2px;
+    color: #000;
+    font-size: 15px;
+}
+
+/* CSS styles for the Apply Now button container */
+.apply-button-simple {
+    display: flex;
+    /* Use Flexbox for button alignment */
+    justify-content: center;
+    /* Center button horizontally */
+    align-items: center;
+    /* Center button vertically */
+    margin: auto;
+}
+
+/* .apply-button-short .button-short {
+    background-color: #fff;
+    color: #000;
+    font-weight: 600;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+
+.apply-button-short .button-short:hover {
+    background-color: #e1e1e1bd;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+} */
+
+/* Title and Apply Now button container */
+.title-button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    /* Adjust spacing as needed */
+}
+
+/* CSS styles for the talenthr-job-box-extended */
+.talenthr-job-box-extended {
+    /* border: 2px solid orange; */
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+/* CSS styles for the talenthr-job-title-extended */
+.talenthr-job-title-extended {
+    /* font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px; */
+    font-size: 1.602rem;
+    font-weight: 700;
+    line-height: 1.3;
+    margin: 0px;
+    word-break: break-word;
+    hyphens: auto;
+}
+
+/* CSS styles for the talenthr-department-extended */
+.talenthr-department-extended {
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+/* CSS styles for the talenthr-location-status-extended */
+.talenthr-location-status-extended {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 25px;
+}
+
+/* CSS styles for the talenthr-location-extended */
+/* CSS styles for the talenthr-employment-status-extended */
+.talenthr-location-extended,
+.talenthr-employment-status-extended {
+    background-color: rgba(211, 211, 211, 0.678);
+    border-radius: 4px;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 15px;
+    word-break: normal;
+    padding: 5px 10px;
+    color: #000;
+}
+
+
+/* Description box */
+.talenthr-description-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* CSS styles for the talenthr-description-label-extended */
+.talenthr-description-label-extended {
+    font-weight: bold;
+    color: #000;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+
+/* CSS styles for the talenthr-description-extended */
+.talenthr-description-extended {
+    margin-bottom: 10px;
+    color: #000;
+}
+
+/* CSS styles for the h3 tag inside the talenthr-description-extended */
+.talenthr-description-extended h3 {
+    font-weight: bold;
+    color: #000;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.talenthr-description-extended ul {
+    padding-left: 40px !important;
+}
+
+/* CSS styles for the apply-button-extended */
+.apply-button-extended {
+    text-align: center;
+}
+
+.apply-button-simple .button-simple,
+.apply-button-extended .button {
+    background-color: #226fba;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    white-space: nowrap;
+    /* font-size: 0.889rem*/
+}
+
+.apply-button-simple .button-simple:hover,
+.apply-button-extended .button:hover {
+    background-color: #1b5995;
+    text-decoration: none;
+}
+
+.widget-talenthr-job {
+    list-style: none;
+}
+
+.widget-talenthr-job:hover .widget-talenthr-job-title {
+    color: #1b5995;
+}
+
+/* Widget title styling */
+.talenthr-widget-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.widget-talenthr-job-title {
+    font-size: 18px;
+    color: #226fba;
+    margin-bottom: 10px;
+}
+
+/* CSS styles for the talenthr-location-status-extended */
+.widget-talenthr-location-status {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 25px;
+}
+
+.widget-talenthr-department {
+    display: inline-block;
+    min-width: fit-content;
+    background-color: rgba(211, 211, 211, 0.678);
+    border-radius: 4px;
+    margin-right: 10px;
+    font-size: 15px;
+    word-break: normal;
+    padding: 5px 10px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+
+/* CSS styles for the talenthr-location-extended */
+/* CSS styles for the talenthr-employment-status-extended */
+.widget-talenthr-location {
+    background-color: rgba(211, 211, 211, 0.678);
+    border-radius: 4px;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 15px;
+    word-break: normal;
+    padding: 5px 10px;
+    color: #000;
+}
+
+.widget-talenthr-employment-status {
+    background-color: rgba(211, 211, 211, 0.678);
+    border-radius: 4px;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 15px;
+    word-break: normal;
+    padding: 5px 10px;
+    color: #000;
+}
+
+/* Hide the form-table th elements */
+.custom-css-container .form-table th {
+    display: none;
+}
+
+/* Container for custom CSS and examples */
+.custom-css-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    gap: 20px; /* Space between items */
+}
+
+.custom-css-textarea {
+    flex: 1;
+    max-width: 100%; /* Take up full width */
+    margin-bottom: 20px; /* Add some spacing at the bottom */
+}
+
+.custom-css-textarea p {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.custom-css-textarea textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: monospace; /* Use monospace font for code */
+    height: 300px; /* Set a fixed height for better usability */
+}
+
+.example-content {
+    flex: 1;
+    max-width: calc(50% - 20px); /* Limit the width of the examples */
+    margin-right: 20px;
+    border: 1px solid #aca9a9;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.example-content h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.example-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.example-content li {
+    margin-bottom: 10px;
+}
+
+.example-content code {
+    display: block;
+    background-color: #f4f4f4;
+    padding: 5px;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+}
+
+/* Media query for small screens */
+@media screen and (max-width: 768px) {
+    .example-content {
+        max-width: 100%; /* Make examples take up full width on small screens */
+        margin-right: 0; /* Remove right margin on small screens */
+        margin-bottom: 20px; /* Add spacing between examples on small screens */
+    }
+}
+
+
+/* Media query for small screens */
+@media screen and (max-width: 768px) {
+    .example-content {
+        max-width: 100%; /* Make examples take up full width on small screens */
+        margin-right: 0; /* Remove right margin on small screens */
+        margin-bottom: 20px; /* Add spacing between examples on small screens */
+    }
+}
+
+
+
+#wpfooter {
+    position: relative !important;
+}
+
+/* Container for the input field */
+.input-container {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style the input field */
+#talenthr_domain_name {
+    width: 300px; /* Adjust as needed */
+    padding-right: 120px; /* Leave space for the pseudo-element */
+}
+
+/* Position the pseudo-element */
+.domain-extension {
+    position: absolute;
+    top: 50%;
+    right: 2px;
+    transform: translateY(-50%);
+    background-color: #F77A21;
+    padding: 5px 10px;
+    border-radius: 0 3px 3px 0;
+    color: white;
+}
+
+
