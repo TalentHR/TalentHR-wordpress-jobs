@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
         var domainInput = document.getElementById('talenthr_domain_name');
         var domainValue = domainInput.value.trim();
 
-        // Validate input (optional)
+        // Validate input
         if (domainValue === '') {
             alert('Please enter a valid domain.');
             return;

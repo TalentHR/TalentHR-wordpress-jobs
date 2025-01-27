@@ -67,7 +67,6 @@ function talentHR_api_simple_shortcode()
 }
 
 // Shortcode callback function
-// Shortcode callback function
 function talentHR_api_extended_shortcode()
 {
     $domain_url = get_domain_url();
@@ -76,7 +75,7 @@ function talentHR_api_extended_shortcode()
 
     // Check if domain URL is empty
     if (empty($domain_url)) {
-        return '<p>No domain URL provided. Please set the domain URL in plugin settings.</p>';
+        return '<p>No domain provided. Please set the domain name in plugin settings.</p>';
     }
 
     // Request arguments

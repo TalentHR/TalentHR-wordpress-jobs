@@ -1,9 +1,9 @@
 <?php
 /*
 Plugin Name:  TalentHR Jobs
-Plugin URI:   https://www.talenthr.io/platform/integrations/wordpress-jobs-plugin/
+Plugin URI:   https://www.talenthr.io/platform/integrations/wordpress/
 Description:  This plugin integrates TalentHR with WordPress. Promote your TalenHR open job positions through your WordPress site.
-Version:      1.1
+Version:      1.2
 Author:       TalentHR
 Author URI:   https://www.talenthr.io
 License:      GPL2
